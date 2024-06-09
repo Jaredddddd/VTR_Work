@@ -1,0 +1,5 @@
+vpr_status=success
+vpr_seconds=8
+rundir=/home/ljw/VTR/vtr_work/mywork/boundtop
+hostname=ljw-virtual-machine
+error=

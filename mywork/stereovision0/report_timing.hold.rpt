@@ -1,0 +1,2905 @@
+#Timing report of worst 100 path(s)
+# Unit scale: 1e-09 seconds
+# Output precision: 3
+
+#Path 1
+Startpoint: $dffe~401^Q~4.Q[0] (.latch clocked by tm3_clk_v0)
+Endpoint  : lo03285.D[0] (.latch clocked by tm3_clk_v0)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dffe~401^Q~4.clk[0] (.latch)                                    0.000     0.000
+$dffe~401^Q~4.Q[0] (.latch) [clock-to-output]                    0.151     0.151
+lo03285.D[0] (.latch)                                            0.000     0.151
+data arrival time                                                          0.151
+
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+lo03285.clk[0] (.latch)                                          0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.236     0.236
+data required time                                                         0.236
+--------------------------------------------------------------------------------
+data required time                                                        -0.236
+data arrival time                                                          0.151
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -0.085
+
+
+#Path 2
+Startpoint: $dffe~769^Q~7.Q[0] (.latch clocked by tm3_clk_v0)
+Endpoint  : $dff~1119^Q~7.D[0] (.latch clocked by tm3_clk_v0)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dffe~769^Q~7.clk[0] (.latch)                                    0.000     0.000
+$dffe~769^Q~7.Q[0] (.latch) [clock-to-output]                    0.151     0.151
+$dff~1119^Q~7.D[0] (.latch)                                      0.000     0.151
+data arrival time                                                          0.151
+
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1119^Q~7.clk[0] (.latch)                                    0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.236     0.236
+data required time                                                         0.236
+--------------------------------------------------------------------------------
+data required time                                                        -0.236
+data arrival time                                                          0.151
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -0.085
+
+
+#Path 3
+Startpoint: $dffe~769^Q~6.Q[0] (.latch clocked by tm3_clk_v0)
+Endpoint  : $dff~1119^Q~6.D[0] (.latch clocked by tm3_clk_v0)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dffe~769^Q~6.clk[0] (.latch)                                    0.000     0.000
+$dffe~769^Q~6.Q[0] (.latch) [clock-to-output]                    0.151     0.151
+$dff~1119^Q~6.D[0] (.latch)                                      0.000     0.151
+data arrival time                                                          0.151
+
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1119^Q~6.clk[0] (.latch)                                    0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.236     0.236
+data required time                                                         0.236
+--------------------------------------------------------------------------------
+data required time                                                        -0.236
+data arrival time                                                          0.151
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -0.085
+
+
+#Path 4
+Startpoint: $dffe~769^Q~5.Q[0] (.latch clocked by tm3_clk_v0)
+Endpoint  : $dff~1119^Q~5.D[0] (.latch clocked by tm3_clk_v0)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dffe~769^Q~5.clk[0] (.latch)                                    0.000     0.000
+$dffe~769^Q~5.Q[0] (.latch) [clock-to-output]                    0.151     0.151
+$dff~1119^Q~5.D[0] (.latch)                                      0.000     0.151
+data arrival time                                                          0.151
+
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1119^Q~5.clk[0] (.latch)                                    0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.236     0.236
+data required time                                                         0.236
+--------------------------------------------------------------------------------
+data required time                                                        -0.236
+data arrival time                                                          0.151
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -0.085
+
+
+#Path 5
+Startpoint: $dffe~769^Q~4.Q[0] (.latch clocked by tm3_clk_v0)
+Endpoint  : $dff~1119^Q~4.D[0] (.latch clocked by tm3_clk_v0)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dffe~769^Q~4.clk[0] (.latch)                                    0.000     0.000
+$dffe~769^Q~4.Q[0] (.latch) [clock-to-output]                    0.151     0.151
+$dff~1119^Q~4.D[0] (.latch)                                      0.000     0.151
+data arrival time                                                          0.151
+
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1119^Q~4.clk[0] (.latch)                                    0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.236     0.236
+data required time                                                         0.236
+--------------------------------------------------------------------------------
+data required time                                                        -0.236
+data arrival time                                                          0.151
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -0.085
+
+
+#Path 6
+Startpoint: $dffe~769^Q~3.Q[0] (.latch clocked by tm3_clk_v0)
+Endpoint  : $dff~1119^Q~3.D[0] (.latch clocked by tm3_clk_v0)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dffe~769^Q~3.clk[0] (.latch)                                    0.000     0.000
+$dffe~769^Q~3.Q[0] (.latch) [clock-to-output]                    0.151     0.151
+$dff~1119^Q~3.D[0] (.latch)                                      0.000     0.151
+data arrival time                                                          0.151
+
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1119^Q~3.clk[0] (.latch)                                    0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.236     0.236
+data required time                                                         0.236
+--------------------------------------------------------------------------------
+data required time                                                        -0.236
+data arrival time                                                          0.151
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -0.085
+
+
+#Path 7
+Startpoint: $dffe~769^Q~2.Q[0] (.latch clocked by tm3_clk_v0)
+Endpoint  : $dff~1119^Q~2.D[0] (.latch clocked by tm3_clk_v0)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dffe~769^Q~2.clk[0] (.latch)                                    0.000     0.000
+$dffe~769^Q~2.Q[0] (.latch) [clock-to-output]                    0.151     0.151
+$dff~1119^Q~2.D[0] (.latch)                                      0.000     0.151
+data arrival time                                                          0.151
+
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1119^Q~2.clk[0] (.latch)                                    0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.236     0.236
+data required time                                                         0.236
+--------------------------------------------------------------------------------
+data required time                                                        -0.236
+data arrival time                                                          0.151
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -0.085
+
+
+#Path 8
+Startpoint: $dffe~769^Q~1.Q[0] (.latch clocked by tm3_clk_v0)
+Endpoint  : $dff~1119^Q~1.D[0] (.latch clocked by tm3_clk_v0)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dffe~769^Q~1.clk[0] (.latch)                                    0.000     0.000
+$dffe~769^Q~1.Q[0] (.latch) [clock-to-output]                    0.151     0.151
+$dff~1119^Q~1.D[0] (.latch)                                      0.000     0.151
+data arrival time                                                          0.151
+
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1119^Q~1.clk[0] (.latch)                                    0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.236     0.236
+data required time                                                         0.236
+--------------------------------------------------------------------------------
+data required time                                                        -0.236
+data arrival time                                                          0.151
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -0.085
+
+
+#Path 9
+Startpoint: $dffe~769^Q~0.Q[0] (.latch clocked by tm3_clk_v0)
+Endpoint  : $dff~1119^Q~0.D[0] (.latch clocked by tm3_clk_v0)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dffe~769^Q~0.clk[0] (.latch)                                    0.000     0.000
+$dffe~769^Q~0.Q[0] (.latch) [clock-to-output]                    0.151     0.151
+$dff~1119^Q~0.D[0] (.latch)                                      0.000     0.151
+data arrival time                                                          0.151
+
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1119^Q~0.clk[0] (.latch)                                    0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.236     0.236
+data required time                                                         0.236
+--------------------------------------------------------------------------------
+data required time                                                        -0.236
+data arrival time                                                          0.151
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -0.085
+
+
+#Path 10
+Startpoint: $dff~1190^Q~4.Q[0] (.latch clocked by tm3_clk_v0)
+Endpoint  : $dff~1192^Q~4.D[0] (.latch clocked by tm3_clk_v0)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1190^Q~4.clk[0] (.latch)                                    0.000     0.000
+$dff~1190^Q~4.Q[0] (.latch) [clock-to-output]                    0.151     0.151
+$dff~1192^Q~4.D[0] (.latch)                                      0.000     0.151
+data arrival time                                                          0.151
+
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1192^Q~4.clk[0] (.latch)                                    0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.236     0.236
+data required time                                                         0.236
+--------------------------------------------------------------------------------
+data required time                                                        -0.236
+data arrival time                                                          0.151
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -0.085
+
+
+#Path 11
+Startpoint: $dffe~401^Q~6.Q[0] (.latch clocked by tm3_clk_v0)
+Endpoint  : lo03287.D[0] (.latch clocked by tm3_clk_v0)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dffe~401^Q~6.clk[0] (.latch)                                    0.000     0.000
+$dffe~401^Q~6.Q[0] (.latch) [clock-to-output]                    0.151     0.151
+lo03287.D[0] (.latch)                                            0.000     0.151
+data arrival time                                                          0.151
+
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+lo03287.clk[0] (.latch)                                          0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.236     0.236
+data required time                                                         0.236
+--------------------------------------------------------------------------------
+data required time                                                        -0.236
+data arrival time                                                          0.151
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -0.085
+
+
+#Path 12
+Startpoint: $dffe~401^Q~5.Q[0] (.latch clocked by tm3_clk_v0)
+Endpoint  : lo03286.D[0] (.latch clocked by tm3_clk_v0)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dffe~401^Q~5.clk[0] (.latch)                                    0.000     0.000
+$dffe~401^Q~5.Q[0] (.latch) [clock-to-output]                    0.151     0.151
+lo03286.D[0] (.latch)                                            0.000     0.151
+data arrival time                                                          0.151
+
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+lo03286.clk[0] (.latch)                                          0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.236     0.236
+data required time                                                         0.236
+--------------------------------------------------------------------------------
+data required time                                                        -0.236
+data arrival time                                                          0.151
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -0.085
+
+
+#Path 13
+Startpoint: $dff~1119^Q~0.Q[0] (.latch clocked by tm3_clk_v0)
+Endpoint  : $dff~1118^Q~0.D[0] (.latch clocked by tm3_clk_v0)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1119^Q~0.clk[0] (.latch)                                    0.000     0.000
+$dff~1119^Q~0.Q[0] (.latch) [clock-to-output]                    0.151     0.151
+$dff~1118^Q~0.D[0] (.latch)                                      0.000     0.151
+data arrival time                                                          0.151
+
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1118^Q~0.clk[0] (.latch)                                    0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.236     0.236
+data required time                                                         0.236
+--------------------------------------------------------------------------------
+data required time                                                        -0.236
+data arrival time                                                          0.151
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -0.085
+
+
+#Path 14
+Startpoint: $dffe~401^Q~3.Q[0] (.latch clocked by tm3_clk_v0)
+Endpoint  : lo03284.D[0] (.latch clocked by tm3_clk_v0)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dffe~401^Q~3.clk[0] (.latch)                                    0.000     0.000
+$dffe~401^Q~3.Q[0] (.latch) [clock-to-output]                    0.151     0.151
+lo03284.D[0] (.latch)                                            0.000     0.151
+data arrival time                                                          0.151
+
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+lo03284.clk[0] (.latch)                                          0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.236     0.236
+data required time                                                         0.236
+--------------------------------------------------------------------------------
+data required time                                                        -0.236
+data arrival time                                                          0.151
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -0.085
+
+
+#Path 15
+Startpoint: $dffe~401^Q~2.Q[0] (.latch clocked by tm3_clk_v0)
+Endpoint  : lo03283.D[0] (.latch clocked by tm3_clk_v0)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dffe~401^Q~2.clk[0] (.latch)                                    0.000     0.000
+$dffe~401^Q~2.Q[0] (.latch) [clock-to-output]                    0.151     0.151
+lo03283.D[0] (.latch)                                            0.000     0.151
+data arrival time                                                          0.151
+
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+lo03283.clk[0] (.latch)                                          0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.236     0.236
+data required time                                                         0.236
+--------------------------------------------------------------------------------
+data required time                                                        -0.236
+data arrival time                                                          0.151
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -0.085
+
+
+#Path 16
+Startpoint: $dffe~401^Q~1.Q[0] (.latch clocked by tm3_clk_v0)
+Endpoint  : lo03282.D[0] (.latch clocked by tm3_clk_v0)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dffe~401^Q~1.clk[0] (.latch)                                    0.000     0.000
+$dffe~401^Q~1.Q[0] (.latch) [clock-to-output]                    0.151     0.151
+lo03282.D[0] (.latch)                                            0.000     0.151
+data arrival time                                                          0.151
+
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+lo03282.clk[0] (.latch)                                          0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.236     0.236
+data required time                                                         0.236
+--------------------------------------------------------------------------------
+data required time                                                        -0.236
+data arrival time                                                          0.151
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -0.085
+
+
+#Path 17
+Startpoint: $dffe~401^Q~0.Q[0] (.latch clocked by tm3_clk_v0)
+Endpoint  : lo03281.D[0] (.latch clocked by tm3_clk_v0)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dffe~401^Q~0.clk[0] (.latch)                                    0.000     0.000
+$dffe~401^Q~0.Q[0] (.latch) [clock-to-output]                    0.151     0.151
+lo03281.D[0] (.latch)                                            0.000     0.151
+data arrival time                                                          0.151
+
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+lo03281.clk[0] (.latch)                                          0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.236     0.236
+data required time                                                         0.236
+--------------------------------------------------------------------------------
+data required time                                                        -0.236
+data arrival time                                                          0.151
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -0.085
+
+
+#Path 18
+Startpoint: $dff~1190^Q~5.Q[0] (.latch clocked by tm3_clk_v0)
+Endpoint  : $dff~1192^Q~5.D[0] (.latch clocked by tm3_clk_v0)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1190^Q~5.clk[0] (.latch)                                    0.000     0.000
+$dff~1190^Q~5.Q[0] (.latch) [clock-to-output]                    0.151     0.151
+$dff~1192^Q~5.D[0] (.latch)                                      0.000     0.151
+data arrival time                                                          0.151
+
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1192^Q~5.clk[0] (.latch)                                    0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.236     0.236
+data required time                                                         0.236
+--------------------------------------------------------------------------------
+data required time                                                        -0.236
+data arrival time                                                          0.151
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -0.085
+
+
+#Path 19
+Startpoint: $dffe~1598^Q~0.Q[0] (.latch clocked by tm3_clk_v0)
+Endpoint  : $dff~1206^Q~0.D[0] (.latch clocked by tm3_clk_v0)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dffe~1598^Q~0.clk[0] (.latch)                                   0.000     0.000
+$dffe~1598^Q~0.Q[0] (.latch) [clock-to-output]                   0.151     0.151
+$dff~1206^Q~0.D[0] (.latch)                                      0.000     0.151
+data arrival time                                                          0.151
+
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1206^Q~0.clk[0] (.latch)                                    0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.236     0.236
+data required time                                                         0.236
+--------------------------------------------------------------------------------
+data required time                                                        -0.236
+data arrival time                                                          0.151
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -0.085
+
+
+#Path 20
+Startpoint: $dff~1190^Q~6.Q[0] (.latch clocked by tm3_clk_v0)
+Endpoint  : $dff~1192^Q~6.D[0] (.latch clocked by tm3_clk_v0)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1190^Q~6.clk[0] (.latch)                                    0.000     0.000
+$dff~1190^Q~6.Q[0] (.latch) [clock-to-output]                    0.151     0.151
+$dff~1192^Q~6.D[0] (.latch)                                      0.000     0.151
+data arrival time                                                          0.151
+
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1192^Q~6.clk[0] (.latch)                                    0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.236     0.236
+data required time                                                         0.236
+--------------------------------------------------------------------------------
+data required time                                                        -0.236
+data arrival time                                                          0.151
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -0.085
+
+
+#Path 21
+Startpoint: $dffe~1598^Q~2.Q[0] (.latch clocked by tm3_clk_v0)
+Endpoint  : $dff~1206^Q~2.D[0] (.latch clocked by tm3_clk_v0)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dffe~1598^Q~2.clk[0] (.latch)                                   0.000     0.000
+$dffe~1598^Q~2.Q[0] (.latch) [clock-to-output]                   0.151     0.151
+$dff~1206^Q~2.D[0] (.latch)                                      0.000     0.151
+data arrival time                                                          0.151
+
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1206^Q~2.clk[0] (.latch)                                    0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.236     0.236
+data required time                                                         0.236
+--------------------------------------------------------------------------------
+data required time                                                        -0.236
+data arrival time                                                          0.151
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -0.085
+
+
+#Path 22
+Startpoint: $dff~1131^Q~2.Q[0] (.latch clocked by tm3_clk_v0)
+Endpoint  : $dff~1130^Q~2.D[0] (.latch clocked by tm3_clk_v0)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1131^Q~2.clk[0] (.latch)                                    0.000     0.000
+$dff~1131^Q~2.Q[0] (.latch) [clock-to-output]                    0.151     0.151
+$dff~1130^Q~2.D[0] (.latch)                                      0.000     0.151
+data arrival time                                                          0.151
+
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1130^Q~2.clk[0] (.latch)                                    0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.236     0.236
+data required time                                                         0.236
+--------------------------------------------------------------------------------
+data required time                                                        -0.236
+data arrival time                                                          0.151
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -0.085
+
+
+#Path 23
+Startpoint: $dff~1131^Q~1.Q[0] (.latch clocked by tm3_clk_v0)
+Endpoint  : $dff~1130^Q~1.D[0] (.latch clocked by tm3_clk_v0)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1131^Q~1.clk[0] (.latch)                                    0.000     0.000
+$dff~1131^Q~1.Q[0] (.latch) [clock-to-output]                    0.151     0.151
+$dff~1130^Q~1.D[0] (.latch)                                      0.000     0.151
+data arrival time                                                          0.151
+
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1130^Q~1.clk[0] (.latch)                                    0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.236     0.236
+data required time                                                         0.236
+--------------------------------------------------------------------------------
+data required time                                                        -0.236
+data arrival time                                                          0.151
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -0.085
+
+
+#Path 24
+Startpoint: $dff~1118^Q~3.Q[0] (.latch clocked by tm3_clk_v0)
+Endpoint  : $dff~1120^Q~3.D[0] (.latch clocked by tm3_clk_v0)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1118^Q~3.clk[0] (.latch)                                    0.000     0.000
+$dff~1118^Q~3.Q[0] (.latch) [clock-to-output]                    0.151     0.151
+$dff~1120^Q~3.D[0] (.latch)                                      0.000     0.151
+data arrival time                                                          0.151
+
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1120^Q~3.clk[0] (.latch)                                    0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.236     0.236
+data required time                                                         0.236
+--------------------------------------------------------------------------------
+data required time                                                        -0.236
+data arrival time                                                          0.151
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -0.085
+
+
+#Path 25
+Startpoint: $dff~1131^Q~5.Q[0] (.latch clocked by tm3_clk_v0)
+Endpoint  : $dff~1130^Q~5.D[0] (.latch clocked by tm3_clk_v0)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1131^Q~5.clk[0] (.latch)                                    0.000     0.000
+$dff~1131^Q~5.Q[0] (.latch) [clock-to-output]                    0.151     0.151
+$dff~1130^Q~5.D[0] (.latch)                                      0.000     0.151
+data arrival time                                                          0.151
+
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1130^Q~5.clk[0] (.latch)                                    0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.236     0.236
+data required time                                                         0.236
+--------------------------------------------------------------------------------
+data required time                                                        -0.236
+data arrival time                                                          0.151
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -0.085
+
+
+#Path 26
+Startpoint: $dff~1191^Q~7.Q[0] (.latch clocked by tm3_clk_v0)
+Endpoint  : $dff~1190^Q~7.D[0] (.latch clocked by tm3_clk_v0)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1191^Q~7.clk[0] (.latch)                                    0.000     0.000
+$dff~1191^Q~7.Q[0] (.latch) [clock-to-output]                    0.151     0.151
+$dff~1190^Q~7.D[0] (.latch)                                      0.000     0.151
+data arrival time                                                          0.151
+
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1190^Q~7.clk[0] (.latch)                                    0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.236     0.236
+data required time                                                         0.236
+--------------------------------------------------------------------------------
+data required time                                                        -0.236
+data arrival time                                                          0.151
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -0.085
+
+
+#Path 27
+Startpoint: $dff~1131^Q~4.Q[0] (.latch clocked by tm3_clk_v0)
+Endpoint  : $dff~1130^Q~4.D[0] (.latch clocked by tm3_clk_v0)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1131^Q~4.clk[0] (.latch)                                    0.000     0.000
+$dff~1131^Q~4.Q[0] (.latch) [clock-to-output]                    0.151     0.151
+$dff~1130^Q~4.D[0] (.latch)                                      0.000     0.151
+data arrival time                                                          0.151
+
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1130^Q~4.clk[0] (.latch)                                    0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.236     0.236
+data required time                                                         0.236
+--------------------------------------------------------------------------------
+data required time                                                        -0.236
+data arrival time                                                          0.151
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -0.085
+
+
+#Path 28
+Startpoint: $dff~1190^Q~1.Q[0] (.latch clocked by tm3_clk_v0)
+Endpoint  : $dff~1192^Q~1.D[0] (.latch clocked by tm3_clk_v0)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1190^Q~1.clk[0] (.latch)                                    0.000     0.000
+$dff~1190^Q~1.Q[0] (.latch) [clock-to-output]                    0.151     0.151
+$dff~1192^Q~1.D[0] (.latch)                                      0.000     0.151
+data arrival time                                                          0.151
+
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1192^Q~1.clk[0] (.latch)                                    0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.236     0.236
+data required time                                                         0.236
+--------------------------------------------------------------------------------
+data required time                                                        -0.236
+data arrival time                                                          0.151
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -0.085
+
+
+#Path 29
+Startpoint: $dff~1131^Q~3.Q[0] (.latch clocked by tm3_clk_v0)
+Endpoint  : $dff~1130^Q~3.D[0] (.latch clocked by tm3_clk_v0)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1131^Q~3.clk[0] (.latch)                                    0.000     0.000
+$dff~1131^Q~3.Q[0] (.latch) [clock-to-output]                    0.151     0.151
+$dff~1130^Q~3.D[0] (.latch)                                      0.000     0.151
+data arrival time                                                          0.151
+
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1130^Q~3.clk[0] (.latch)                                    0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.236     0.236
+data required time                                                         0.236
+--------------------------------------------------------------------------------
+data required time                                                        -0.236
+data arrival time                                                          0.151
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -0.085
+
+
+#Path 30
+Startpoint: $dff~1190^Q~3.Q[0] (.latch clocked by tm3_clk_v0)
+Endpoint  : $dff~1192^Q~3.D[0] (.latch clocked by tm3_clk_v0)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1190^Q~3.clk[0] (.latch)                                    0.000     0.000
+$dff~1190^Q~3.Q[0] (.latch) [clock-to-output]                    0.151     0.151
+$dff~1192^Q~3.D[0] (.latch)                                      0.000     0.151
+data arrival time                                                          0.151
+
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1192^Q~3.clk[0] (.latch)                                    0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.236     0.236
+data required time                                                         0.236
+--------------------------------------------------------------------------------
+data required time                                                        -0.236
+data arrival time                                                          0.151
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -0.085
+
+
+#Path 31
+Startpoint: $dff~1118^Q~7.Q[0] (.latch clocked by tm3_clk_v0)
+Endpoint  : $dff~1120^Q~7.D[0] (.latch clocked by tm3_clk_v0)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1118^Q~7.clk[0] (.latch)                                    0.000     0.000
+$dff~1118^Q~7.Q[0] (.latch) [clock-to-output]                    0.151     0.151
+$dff~1120^Q~7.D[0] (.latch)                                      0.000     0.151
+data arrival time                                                          0.151
+
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1120^Q~7.clk[0] (.latch)                                    0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.236     0.236
+data required time                                                         0.236
+--------------------------------------------------------------------------------
+data required time                                                        -0.236
+data arrival time                                                          0.151
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -0.085
+
+
+#Path 32
+Startpoint: $dff~1118^Q~6.Q[0] (.latch clocked by tm3_clk_v0)
+Endpoint  : $dff~1120^Q~6.D[0] (.latch clocked by tm3_clk_v0)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1118^Q~6.clk[0] (.latch)                                    0.000     0.000
+$dff~1118^Q~6.Q[0] (.latch) [clock-to-output]                    0.151     0.151
+$dff~1120^Q~6.D[0] (.latch)                                      0.000     0.151
+data arrival time                                                          0.151
+
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1120^Q~6.clk[0] (.latch)                                    0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.236     0.236
+data required time                                                         0.236
+--------------------------------------------------------------------------------
+data required time                                                        -0.236
+data arrival time                                                          0.151
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -0.085
+
+
+#Path 33
+Startpoint: $dff~1118^Q~5.Q[0] (.latch clocked by tm3_clk_v0)
+Endpoint  : $dff~1120^Q~5.D[0] (.latch clocked by tm3_clk_v0)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1118^Q~5.clk[0] (.latch)                                    0.000     0.000
+$dff~1118^Q~5.Q[0] (.latch) [clock-to-output]                    0.151     0.151
+$dff~1120^Q~5.D[0] (.latch)                                      0.000     0.151
+data arrival time                                                          0.151
+
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1120^Q~5.clk[0] (.latch)                                    0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.236     0.236
+data required time                                                         0.236
+--------------------------------------------------------------------------------
+data required time                                                        -0.236
+data arrival time                                                          0.151
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -0.085
+
+
+#Path 34
+Startpoint: $dff~1118^Q~4.Q[0] (.latch clocked by tm3_clk_v0)
+Endpoint  : $dff~1120^Q~4.D[0] (.latch clocked by tm3_clk_v0)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1118^Q~4.clk[0] (.latch)                                    0.000     0.000
+$dff~1118^Q~4.Q[0] (.latch) [clock-to-output]                    0.151     0.151
+$dff~1120^Q~4.D[0] (.latch)                                      0.000     0.151
+data arrival time                                                          0.151
+
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1120^Q~4.clk[0] (.latch)                                    0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.236     0.236
+data required time                                                         0.236
+--------------------------------------------------------------------------------
+data required time                                                        -0.236
+data arrival time                                                          0.151
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -0.085
+
+
+#Path 35
+Startpoint: $dffe~1598^Q~3.Q[0] (.latch clocked by tm3_clk_v0)
+Endpoint  : $dff~1206^Q~3.D[0] (.latch clocked by tm3_clk_v0)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dffe~1598^Q~3.clk[0] (.latch)                                   0.000     0.000
+$dffe~1598^Q~3.Q[0] (.latch) [clock-to-output]                   0.151     0.151
+$dff~1206^Q~3.D[0] (.latch)                                      0.000     0.151
+data arrival time                                                          0.151
+
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1206^Q~3.clk[0] (.latch)                                    0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.236     0.236
+data required time                                                         0.236
+--------------------------------------------------------------------------------
+data required time                                                        -0.236
+data arrival time                                                          0.151
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -0.085
+
+
+#Path 36
+Startpoint: $dff~1118^Q~2.Q[0] (.latch clocked by tm3_clk_v0)
+Endpoint  : $dff~1120^Q~2.D[0] (.latch clocked by tm3_clk_v0)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1118^Q~2.clk[0] (.latch)                                    0.000     0.000
+$dff~1118^Q~2.Q[0] (.latch) [clock-to-output]                    0.151     0.151
+$dff~1120^Q~2.D[0] (.latch)                                      0.000     0.151
+data arrival time                                                          0.151
+
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1120^Q~2.clk[0] (.latch)                                    0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.236     0.236
+data required time                                                         0.236
+--------------------------------------------------------------------------------
+data required time                                                        -0.236
+data arrival time                                                          0.151
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -0.085
+
+
+#Path 37
+Startpoint: $dff~1118^Q~1.Q[0] (.latch clocked by tm3_clk_v0)
+Endpoint  : $dff~1120^Q~1.D[0] (.latch clocked by tm3_clk_v0)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1118^Q~1.clk[0] (.latch)                                    0.000     0.000
+$dff~1118^Q~1.Q[0] (.latch) [clock-to-output]                    0.151     0.151
+$dff~1120^Q~1.D[0] (.latch)                                      0.000     0.151
+data arrival time                                                          0.151
+
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1120^Q~1.clk[0] (.latch)                                    0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.236     0.236
+data required time                                                         0.236
+--------------------------------------------------------------------------------
+data required time                                                        -0.236
+data arrival time                                                          0.151
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -0.085
+
+
+#Path 38
+Startpoint: $dff~1118^Q~0.Q[0] (.latch clocked by tm3_clk_v0)
+Endpoint  : $dff~1120^Q~0.D[0] (.latch clocked by tm3_clk_v0)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1118^Q~0.clk[0] (.latch)                                    0.000     0.000
+$dff~1118^Q~0.Q[0] (.latch) [clock-to-output]                    0.151     0.151
+$dff~1120^Q~0.D[0] (.latch)                                      0.000     0.151
+data arrival time                                                          0.151
+
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1120^Q~0.clk[0] (.latch)                                    0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.236     0.236
+data required time                                                         0.236
+--------------------------------------------------------------------------------
+data required time                                                        -0.236
+data arrival time                                                          0.151
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -0.085
+
+
+#Path 39
+Startpoint: $dff~1119^Q~7.Q[0] (.latch clocked by tm3_clk_v0)
+Endpoint  : $dff~1118^Q~7.D[0] (.latch clocked by tm3_clk_v0)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1119^Q~7.clk[0] (.latch)                                    0.000     0.000
+$dff~1119^Q~7.Q[0] (.latch) [clock-to-output]                    0.151     0.151
+$dff~1118^Q~7.D[0] (.latch)                                      0.000     0.151
+data arrival time                                                          0.151
+
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1118^Q~7.clk[0] (.latch)                                    0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.236     0.236
+data required time                                                         0.236
+--------------------------------------------------------------------------------
+data required time                                                        -0.236
+data arrival time                                                          0.151
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -0.085
+
+
+#Path 40
+Startpoint: $dff~1119^Q~6.Q[0] (.latch clocked by tm3_clk_v0)
+Endpoint  : $dff~1118^Q~6.D[0] (.latch clocked by tm3_clk_v0)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1119^Q~6.clk[0] (.latch)                                    0.000     0.000
+$dff~1119^Q~6.Q[0] (.latch) [clock-to-output]                    0.151     0.151
+$dff~1118^Q~6.D[0] (.latch)                                      0.000     0.151
+data arrival time                                                          0.151
+
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1118^Q~6.clk[0] (.latch)                                    0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.236     0.236
+data required time                                                         0.236
+--------------------------------------------------------------------------------
+data required time                                                        -0.236
+data arrival time                                                          0.151
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -0.085
+
+
+#Path 41
+Startpoint: $dff~1119^Q~5.Q[0] (.latch clocked by tm3_clk_v0)
+Endpoint  : $dff~1118^Q~5.D[0] (.latch clocked by tm3_clk_v0)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1119^Q~5.clk[0] (.latch)                                    0.000     0.000
+$dff~1119^Q~5.Q[0] (.latch) [clock-to-output]                    0.151     0.151
+$dff~1118^Q~5.D[0] (.latch)                                      0.000     0.151
+data arrival time                                                          0.151
+
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1118^Q~5.clk[0] (.latch)                                    0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.236     0.236
+data required time                                                         0.236
+--------------------------------------------------------------------------------
+data required time                                                        -0.236
+data arrival time                                                          0.151
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -0.085
+
+
+#Path 42
+Startpoint: $dff~1119^Q~4.Q[0] (.latch clocked by tm3_clk_v0)
+Endpoint  : $dff~1118^Q~4.D[0] (.latch clocked by tm3_clk_v0)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1119^Q~4.clk[0] (.latch)                                    0.000     0.000
+$dff~1119^Q~4.Q[0] (.latch) [clock-to-output]                    0.151     0.151
+$dff~1118^Q~4.D[0] (.latch)                                      0.000     0.151
+data arrival time                                                          0.151
+
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1118^Q~4.clk[0] (.latch)                                    0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.236     0.236
+data required time                                                         0.236
+--------------------------------------------------------------------------------
+data required time                                                        -0.236
+data arrival time                                                          0.151
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -0.085
+
+
+#Path 43
+Startpoint: $dff~1119^Q~3.Q[0] (.latch clocked by tm3_clk_v0)
+Endpoint  : $dff~1118^Q~3.D[0] (.latch clocked by tm3_clk_v0)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1119^Q~3.clk[0] (.latch)                                    0.000     0.000
+$dff~1119^Q~3.Q[0] (.latch) [clock-to-output]                    0.151     0.151
+$dff~1118^Q~3.D[0] (.latch)                                      0.000     0.151
+data arrival time                                                          0.151
+
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1118^Q~3.clk[0] (.latch)                                    0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.236     0.236
+data required time                                                         0.236
+--------------------------------------------------------------------------------
+data required time                                                        -0.236
+data arrival time                                                          0.151
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -0.085
+
+
+#Path 44
+Startpoint: $dff~1119^Q~2.Q[0] (.latch clocked by tm3_clk_v0)
+Endpoint  : $dff~1118^Q~2.D[0] (.latch clocked by tm3_clk_v0)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1119^Q~2.clk[0] (.latch)                                    0.000     0.000
+$dff~1119^Q~2.Q[0] (.latch) [clock-to-output]                    0.151     0.151
+$dff~1118^Q~2.D[0] (.latch)                                      0.000     0.151
+data arrival time                                                          0.151
+
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1118^Q~2.clk[0] (.latch)                                    0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.236     0.236
+data required time                                                         0.236
+--------------------------------------------------------------------------------
+data required time                                                        -0.236
+data arrival time                                                          0.151
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -0.085
+
+
+#Path 45
+Startpoint: $dff~1119^Q~1.Q[0] (.latch clocked by tm3_clk_v0)
+Endpoint  : $dff~1118^Q~1.D[0] (.latch clocked by tm3_clk_v0)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1119^Q~1.clk[0] (.latch)                                    0.000     0.000
+$dff~1119^Q~1.Q[0] (.latch) [clock-to-output]                    0.151     0.151
+$dff~1118^Q~1.D[0] (.latch)                                      0.000     0.151
+data arrival time                                                          0.151
+
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1118^Q~1.clk[0] (.latch)                                    0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.236     0.236
+data required time                                                         0.236
+--------------------------------------------------------------------------------
+data required time                                                        -0.236
+data arrival time                                                          0.151
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -0.085
+
+
+#Path 46
+Startpoint: $dff~1121^Q~4.Q[0] (.latch clocked by tm3_clk_v0)
+Endpoint  : $dff~1123^Q~4.D[0] (.latch clocked by tm3_clk_v0)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1121^Q~4.clk[0] (.latch)                                    0.000     0.000
+$dff~1121^Q~4.Q[0] (.latch) [clock-to-output]                    0.151     0.151
+$dff~1123^Q~4.D[0] (.latch)                                      0.000     0.151
+data arrival time                                                          0.151
+
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1123^Q~4.clk[0] (.latch)                                    0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.236     0.236
+data required time                                                         0.236
+--------------------------------------------------------------------------------
+data required time                                                        -0.236
+data arrival time                                                          0.151
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -0.085
+
+
+#Path 47
+Startpoint: $dff~1192^Q~1.Q[0] (.latch clocked by tm3_clk_v0)
+Endpoint  : lo07381.D[0] (.latch clocked by tm3_clk_v0)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1192^Q~1.clk[0] (.latch)                                    0.000     0.000
+$dff~1192^Q~1.Q[0] (.latch) [clock-to-output]                    0.151     0.151
+lo07381.D[0] (.latch)                                            0.000     0.151
+data arrival time                                                          0.151
+
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+lo07381.clk[0] (.latch)                                          0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.236     0.236
+data required time                                                         0.236
+--------------------------------------------------------------------------------
+data required time                                                        -0.236
+data arrival time                                                          0.151
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -0.085
+
+
+#Path 48
+Startpoint: $dff~1192^Q~2.Q[0] (.latch clocked by tm3_clk_v0)
+Endpoint  : lo07382.D[0] (.latch clocked by tm3_clk_v0)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1192^Q~2.clk[0] (.latch)                                    0.000     0.000
+$dff~1192^Q~2.Q[0] (.latch) [clock-to-output]                    0.151     0.151
+lo07382.D[0] (.latch)                                            0.000     0.151
+data arrival time                                                          0.151
+
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+lo07382.clk[0] (.latch)                                          0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.236     0.236
+data required time                                                         0.236
+--------------------------------------------------------------------------------
+data required time                                                        -0.236
+data arrival time                                                          0.151
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -0.085
+
+
+#Path 49
+Startpoint: $dffe~817^Q~7.Q[0] (.latch clocked by tm3_clk_v0)
+Endpoint  : $dff~1131^Q~7.D[0] (.latch clocked by tm3_clk_v0)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dffe~817^Q~7.clk[0] (.latch)                                    0.000     0.000
+$dffe~817^Q~7.Q[0] (.latch) [clock-to-output]                    0.151     0.151
+$dff~1131^Q~7.D[0] (.latch)                                      0.000     0.151
+data arrival time                                                          0.151
+
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1131^Q~7.clk[0] (.latch)                                    0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.236     0.236
+data required time                                                         0.236
+--------------------------------------------------------------------------------
+data required time                                                        -0.236
+data arrival time                                                          0.151
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -0.085
+
+
+#Path 50
+Startpoint: $dff~1192^Q~3.Q[0] (.latch clocked by tm3_clk_v0)
+Endpoint  : lo07383.D[0] (.latch clocked by tm3_clk_v0)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1192^Q~3.clk[0] (.latch)                                    0.000     0.000
+$dff~1192^Q~3.Q[0] (.latch) [clock-to-output]                    0.151     0.151
+lo07383.D[0] (.latch)                                            0.000     0.151
+data arrival time                                                          0.151
+
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+lo07383.clk[0] (.latch)                                          0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.236     0.236
+data required time                                                         0.236
+--------------------------------------------------------------------------------
+data required time                                                        -0.236
+data arrival time                                                          0.151
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -0.085
+
+
+#Path 51
+Startpoint: $dff~1192^Q~4.Q[0] (.latch clocked by tm3_clk_v0)
+Endpoint  : lo07384.D[0] (.latch clocked by tm3_clk_v0)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1192^Q~4.clk[0] (.latch)                                    0.000     0.000
+$dff~1192^Q~4.Q[0] (.latch) [clock-to-output]                    0.151     0.151
+lo07384.D[0] (.latch)                                            0.000     0.151
+data arrival time                                                          0.151
+
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+lo07384.clk[0] (.latch)                                          0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.236     0.236
+data required time                                                         0.236
+--------------------------------------------------------------------------------
+data required time                                                        -0.236
+data arrival time                                                          0.151
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -0.085
+
+
+#Path 52
+Startpoint: $dff~1207^Q~0.Q[0] (.latch clocked by tm3_clk_v0)
+Endpoint  : lo11265.D[0] (.latch clocked by tm3_clk_v0)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1207^Q~0.clk[0] (.latch)                                    0.000     0.000
+$dff~1207^Q~0.Q[0] (.latch) [clock-to-output]                    0.151     0.151
+lo11265.D[0] (.latch)                                            0.000     0.151
+data arrival time                                                          0.151
+
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+lo11265.clk[0] (.latch)                                          0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.236     0.236
+data required time                                                         0.236
+--------------------------------------------------------------------------------
+data required time                                                        -0.236
+data arrival time                                                          0.151
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -0.085
+
+
+#Path 53
+Startpoint: $dffe~817^Q~6.Q[0] (.latch clocked by tm3_clk_v0)
+Endpoint  : $dff~1131^Q~6.D[0] (.latch clocked by tm3_clk_v0)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dffe~817^Q~6.clk[0] (.latch)                                    0.000     0.000
+$dffe~817^Q~6.Q[0] (.latch) [clock-to-output]                    0.151     0.151
+$dff~1131^Q~6.D[0] (.latch)                                      0.000     0.151
+data arrival time                                                          0.151
+
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1131^Q~6.clk[0] (.latch)                                    0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.236     0.236
+data required time                                                         0.236
+--------------------------------------------------------------------------------
+data required time                                                        -0.236
+data arrival time                                                          0.151
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -0.085
+
+
+#Path 54
+Startpoint: $dff~1121^Q~7.Q[0] (.latch clocked by tm3_clk_v0)
+Endpoint  : $dff~1123^Q~7.D[0] (.latch clocked by tm3_clk_v0)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1121^Q~7.clk[0] (.latch)                                    0.000     0.000
+$dff~1121^Q~7.Q[0] (.latch) [clock-to-output]                    0.151     0.151
+$dff~1123^Q~7.D[0] (.latch)                                      0.000     0.151
+data arrival time                                                          0.151
+
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1123^Q~7.clk[0] (.latch)                                    0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.236     0.236
+data required time                                                         0.236
+--------------------------------------------------------------------------------
+data required time                                                        -0.236
+data arrival time                                                          0.151
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -0.085
+
+
+#Path 55
+Startpoint: $dff~1121^Q~6.Q[0] (.latch clocked by tm3_clk_v0)
+Endpoint  : $dff~1123^Q~6.D[0] (.latch clocked by tm3_clk_v0)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1121^Q~6.clk[0] (.latch)                                    0.000     0.000
+$dff~1121^Q~6.Q[0] (.latch) [clock-to-output]                    0.151     0.151
+$dff~1123^Q~6.D[0] (.latch)                                      0.000     0.151
+data arrival time                                                          0.151
+
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1123^Q~6.clk[0] (.latch)                                    0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.236     0.236
+data required time                                                         0.236
+--------------------------------------------------------------------------------
+data required time                                                        -0.236
+data arrival time                                                          0.151
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -0.085
+
+
+#Path 56
+Startpoint: $dff~1121^Q~5.Q[0] (.latch clocked by tm3_clk_v0)
+Endpoint  : $dff~1123^Q~5.D[0] (.latch clocked by tm3_clk_v0)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1121^Q~5.clk[0] (.latch)                                    0.000     0.000
+$dff~1121^Q~5.Q[0] (.latch) [clock-to-output]                    0.151     0.151
+$dff~1123^Q~5.D[0] (.latch)                                      0.000     0.151
+data arrival time                                                          0.151
+
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1123^Q~5.clk[0] (.latch)                                    0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.236     0.236
+data required time                                                         0.236
+--------------------------------------------------------------------------------
+data required time                                                        -0.236
+data arrival time                                                          0.151
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -0.085
+
+
+#Path 57
+Startpoint: $dff~1192^Q~0.Q[0] (.latch clocked by tm3_clk_v0)
+Endpoint  : lo07380.D[0] (.latch clocked by tm3_clk_v0)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1192^Q~0.clk[0] (.latch)                                    0.000     0.000
+$dff~1192^Q~0.Q[0] (.latch) [clock-to-output]                    0.151     0.151
+lo07380.D[0] (.latch)                                            0.000     0.151
+data arrival time                                                          0.151
+
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+lo07380.clk[0] (.latch)                                          0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.236     0.236
+data required time                                                         0.236
+--------------------------------------------------------------------------------
+data required time                                                        -0.236
+data arrival time                                                          0.151
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -0.085
+
+
+#Path 58
+Startpoint: $dff~1121^Q~3.Q[0] (.latch clocked by tm3_clk_v0)
+Endpoint  : $dff~1123^Q~3.D[0] (.latch clocked by tm3_clk_v0)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1121^Q~3.clk[0] (.latch)                                    0.000     0.000
+$dff~1121^Q~3.Q[0] (.latch) [clock-to-output]                    0.151     0.151
+$dff~1123^Q~3.D[0] (.latch)                                      0.000     0.151
+data arrival time                                                          0.151
+
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1123^Q~3.clk[0] (.latch)                                    0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.236     0.236
+data required time                                                         0.236
+--------------------------------------------------------------------------------
+data required time                                                        -0.236
+data arrival time                                                          0.151
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -0.085
+
+
+#Path 59
+Startpoint: $dff~1121^Q~2.Q[0] (.latch clocked by tm3_clk_v0)
+Endpoint  : $dff~1123^Q~2.D[0] (.latch clocked by tm3_clk_v0)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1121^Q~2.clk[0] (.latch)                                    0.000     0.000
+$dff~1121^Q~2.Q[0] (.latch) [clock-to-output]                    0.151     0.151
+$dff~1123^Q~2.D[0] (.latch)                                      0.000     0.151
+data arrival time                                                          0.151
+
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1123^Q~2.clk[0] (.latch)                                    0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.236     0.236
+data required time                                                         0.236
+--------------------------------------------------------------------------------
+data required time                                                        -0.236
+data arrival time                                                          0.151
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -0.085
+
+
+#Path 60
+Startpoint: $dff~1121^Q~1.Q[0] (.latch clocked by tm3_clk_v0)
+Endpoint  : $dff~1123^Q~1.D[0] (.latch clocked by tm3_clk_v0)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1121^Q~1.clk[0] (.latch)                                    0.000     0.000
+$dff~1121^Q~1.Q[0] (.latch) [clock-to-output]                    0.151     0.151
+$dff~1123^Q~1.D[0] (.latch)                                      0.000     0.151
+data arrival time                                                          0.151
+
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1123^Q~1.clk[0] (.latch)                                    0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.236     0.236
+data required time                                                         0.236
+--------------------------------------------------------------------------------
+data required time                                                        -0.236
+data arrival time                                                          0.151
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -0.085
+
+
+#Path 61
+Startpoint: $dff~1121^Q~0.Q[0] (.latch clocked by tm3_clk_v0)
+Endpoint  : $dff~1123^Q~0.D[0] (.latch clocked by tm3_clk_v0)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1121^Q~0.clk[0] (.latch)                                    0.000     0.000
+$dff~1121^Q~0.Q[0] (.latch) [clock-to-output]                    0.151     0.151
+$dff~1123^Q~0.D[0] (.latch)                                      0.000     0.151
+data arrival time                                                          0.151
+
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1123^Q~0.clk[0] (.latch)                                    0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.236     0.236
+data required time                                                         0.236
+--------------------------------------------------------------------------------
+data required time                                                        -0.236
+data arrival time                                                          0.151
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -0.085
+
+
+#Path 62
+Startpoint: $dff~1122^Q~7.Q[0] (.latch clocked by tm3_clk_v0)
+Endpoint  : $dff~1121^Q~7.D[0] (.latch clocked by tm3_clk_v0)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1122^Q~7.clk[0] (.latch)                                    0.000     0.000
+$dff~1122^Q~7.Q[0] (.latch) [clock-to-output]                    0.151     0.151
+$dff~1121^Q~7.D[0] (.latch)                                      0.000     0.151
+data arrival time                                                          0.151
+
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1121^Q~7.clk[0] (.latch)                                    0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.236     0.236
+data required time                                                         0.236
+--------------------------------------------------------------------------------
+data required time                                                        -0.236
+data arrival time                                                          0.151
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -0.085
+
+
+#Path 63
+Startpoint: $dff~1122^Q~6.Q[0] (.latch clocked by tm3_clk_v0)
+Endpoint  : $dff~1121^Q~6.D[0] (.latch clocked by tm3_clk_v0)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1122^Q~6.clk[0] (.latch)                                    0.000     0.000
+$dff~1122^Q~6.Q[0] (.latch) [clock-to-output]                    0.151     0.151
+$dff~1121^Q~6.D[0] (.latch)                                      0.000     0.151
+data arrival time                                                          0.151
+
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1121^Q~6.clk[0] (.latch)                                    0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.236     0.236
+data required time                                                         0.236
+--------------------------------------------------------------------------------
+data required time                                                        -0.236
+data arrival time                                                          0.151
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -0.085
+
+
+#Path 64
+Startpoint: $dff~1122^Q~5.Q[0] (.latch clocked by tm3_clk_v0)
+Endpoint  : $dff~1121^Q~5.D[0] (.latch clocked by tm3_clk_v0)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1122^Q~5.clk[0] (.latch)                                    0.000     0.000
+$dff~1122^Q~5.Q[0] (.latch) [clock-to-output]                    0.151     0.151
+$dff~1121^Q~5.D[0] (.latch)                                      0.000     0.151
+data arrival time                                                          0.151
+
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1121^Q~5.clk[0] (.latch)                                    0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.236     0.236
+data required time                                                         0.236
+--------------------------------------------------------------------------------
+data required time                                                        -0.236
+data arrival time                                                          0.151
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -0.085
+
+
+#Path 65
+Startpoint: $dff~1122^Q~4.Q[0] (.latch clocked by tm3_clk_v0)
+Endpoint  : $dff~1121^Q~4.D[0] (.latch clocked by tm3_clk_v0)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1122^Q~4.clk[0] (.latch)                                    0.000     0.000
+$dff~1122^Q~4.Q[0] (.latch) [clock-to-output]                    0.151     0.151
+$dff~1121^Q~4.D[0] (.latch)                                      0.000     0.151
+data arrival time                                                          0.151
+
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1121^Q~4.clk[0] (.latch)                                    0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.236     0.236
+data required time                                                         0.236
+--------------------------------------------------------------------------------
+data required time                                                        -0.236
+data arrival time                                                          0.151
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -0.085
+
+
+#Path 66
+Startpoint: $dff~1122^Q~3.Q[0] (.latch clocked by tm3_clk_v0)
+Endpoint  : $dff~1121^Q~3.D[0] (.latch clocked by tm3_clk_v0)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1122^Q~3.clk[0] (.latch)                                    0.000     0.000
+$dff~1122^Q~3.Q[0] (.latch) [clock-to-output]                    0.151     0.151
+$dff~1121^Q~3.D[0] (.latch)                                      0.000     0.151
+data arrival time                                                          0.151
+
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1121^Q~3.clk[0] (.latch)                                    0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.236     0.236
+data required time                                                         0.236
+--------------------------------------------------------------------------------
+data required time                                                        -0.236
+data arrival time                                                          0.151
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -0.085
+
+
+#Path 67
+Startpoint: $dff~1122^Q~2.Q[0] (.latch clocked by tm3_clk_v0)
+Endpoint  : $dff~1121^Q~2.D[0] (.latch clocked by tm3_clk_v0)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1122^Q~2.clk[0] (.latch)                                    0.000     0.000
+$dff~1122^Q~2.Q[0] (.latch) [clock-to-output]                    0.151     0.151
+$dff~1121^Q~2.D[0] (.latch)                                      0.000     0.151
+data arrival time                                                          0.151
+
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1121^Q~2.clk[0] (.latch)                                    0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.236     0.236
+data required time                                                         0.236
+--------------------------------------------------------------------------------
+data required time                                                        -0.236
+data arrival time                                                          0.151
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -0.085
+
+
+#Path 68
+Startpoint: $dffe~1598^Q~10.Q[0] (.latch clocked by tm3_clk_v0)
+Endpoint  : $dff~1206^Q~7.D[0] (.latch clocked by tm3_clk_v0)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dffe~1598^Q~10.clk[0] (.latch)                                  0.000     0.000
+$dffe~1598^Q~10.Q[0] (.latch) [clock-to-output]                  0.151     0.151
+$dff~1206^Q~7.D[0] (.latch)                                      0.000     0.151
+data arrival time                                                          0.151
+
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1206^Q~7.clk[0] (.latch)                                    0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.236     0.236
+data required time                                                         0.236
+--------------------------------------------------------------------------------
+data required time                                                        -0.236
+data arrival time                                                          0.151
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -0.085
+
+
+#Path 69
+Startpoint: $dff~1131^Q~0.Q[0] (.latch clocked by tm3_clk_v0)
+Endpoint  : $dff~1130^Q~0.D[0] (.latch clocked by tm3_clk_v0)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1131^Q~0.clk[0] (.latch)                                    0.000     0.000
+$dff~1131^Q~0.Q[0] (.latch) [clock-to-output]                    0.151     0.151
+$dff~1130^Q~0.D[0] (.latch)                                      0.000     0.151
+data arrival time                                                          0.151
+
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1130^Q~0.clk[0] (.latch)                                    0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.236     0.236
+data required time                                                         0.236
+--------------------------------------------------------------------------------
+data required time                                                        -0.236
+data arrival time                                                          0.151
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -0.085
+
+
+#Path 70
+Startpoint: $dffe~1329^Q~0.Q[0] (.latch clocked by tm3_clk_v0)
+Endpoint  : lo05630.D[0] (.latch clocked by tm3_clk_v0)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dffe~1329^Q~0.clk[0] (.latch)                                   0.000     0.000
+$dffe~1329^Q~0.Q[0] (.latch) [clock-to-output]                   0.151     0.151
+lo05630.D[0] (.latch)                                            0.000     0.151
+data arrival time                                                          0.151
+
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+lo05630.clk[0] (.latch)                                          0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.236     0.236
+data required time                                                         0.236
+--------------------------------------------------------------------------------
+data required time                                                        -0.236
+data arrival time                                                          0.151
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -0.085
+
+
+#Path 71
+Startpoint: $dffe~1329^Q~1.Q[0] (.latch clocked by tm3_clk_v0)
+Endpoint  : lo05631.D[0] (.latch clocked by tm3_clk_v0)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dffe~1329^Q~1.clk[0] (.latch)                                   0.000     0.000
+$dffe~1329^Q~1.Q[0] (.latch) [clock-to-output]                   0.151     0.151
+lo05631.D[0] (.latch)                                            0.000     0.151
+data arrival time                                                          0.151
+
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+lo05631.clk[0] (.latch)                                          0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.236     0.236
+data required time                                                         0.236
+--------------------------------------------------------------------------------
+data required time                                                        -0.236
+data arrival time                                                          0.151
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -0.085
+
+
+#Path 72
+Startpoint: $dffe~1329^Q~2.Q[0] (.latch clocked by tm3_clk_v0)
+Endpoint  : lo05632.D[0] (.latch clocked by tm3_clk_v0)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dffe~1329^Q~2.clk[0] (.latch)                                   0.000     0.000
+$dffe~1329^Q~2.Q[0] (.latch) [clock-to-output]                   0.151     0.151
+lo05632.D[0] (.latch)                                            0.000     0.151
+data arrival time                                                          0.151
+
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+lo05632.clk[0] (.latch)                                          0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.236     0.236
+data required time                                                         0.236
+--------------------------------------------------------------------------------
+data required time                                                        -0.236
+data arrival time                                                          0.151
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -0.085
+
+
+#Path 73
+Startpoint: $dffe~1329^Q~3.Q[0] (.latch clocked by tm3_clk_v0)
+Endpoint  : lo05633.D[0] (.latch clocked by tm3_clk_v0)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dffe~1329^Q~3.clk[0] (.latch)                                   0.000     0.000
+$dffe~1329^Q~3.Q[0] (.latch) [clock-to-output]                   0.151     0.151
+lo05633.D[0] (.latch)                                            0.000     0.151
+data arrival time                                                          0.151
+
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+lo05633.clk[0] (.latch)                                          0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.236     0.236
+data required time                                                         0.236
+--------------------------------------------------------------------------------
+data required time                                                        -0.236
+data arrival time                                                          0.151
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -0.085
+
+
+#Path 74
+Startpoint: $dffe~1598^Q~4.Q[0] (.latch clocked by tm3_clk_v0)
+Endpoint  : $dff~1206^Q~4.D[0] (.latch clocked by tm3_clk_v0)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dffe~1598^Q~4.clk[0] (.latch)                                   0.000     0.000
+$dffe~1598^Q~4.Q[0] (.latch) [clock-to-output]                   0.151     0.151
+$dff~1206^Q~4.D[0] (.latch)                                      0.000     0.151
+data arrival time                                                          0.151
+
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1206^Q~4.clk[0] (.latch)                                    0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.236     0.236
+data required time                                                         0.236
+--------------------------------------------------------------------------------
+data required time                                                        -0.236
+data arrival time                                                          0.151
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -0.085
+
+
+#Path 75
+Startpoint: $dffe~1598^Q~5.Q[0] (.latch clocked by tm3_clk_v0)
+Endpoint  : $dff~1206^Q~5.D[0] (.latch clocked by tm3_clk_v0)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dffe~1598^Q~5.clk[0] (.latch)                                   0.000     0.000
+$dffe~1598^Q~5.Q[0] (.latch) [clock-to-output]                   0.151     0.151
+$dff~1206^Q~5.D[0] (.latch)                                      0.000     0.151
+data arrival time                                                          0.151
+
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1206^Q~5.clk[0] (.latch)                                    0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.236     0.236
+data required time                                                         0.236
+--------------------------------------------------------------------------------
+data required time                                                        -0.236
+data arrival time                                                          0.151
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -0.085
+
+
+#Path 76
+Startpoint: $dffe~1329^Q~4.Q[0] (.latch clocked by tm3_clk_v0)
+Endpoint  : lo05634.D[0] (.latch clocked by tm3_clk_v0)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dffe~1329^Q~4.clk[0] (.latch)                                   0.000     0.000
+$dffe~1329^Q~4.Q[0] (.latch) [clock-to-output]                   0.151     0.151
+lo05634.D[0] (.latch)                                            0.000     0.151
+data arrival time                                                          0.151
+
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+lo05634.clk[0] (.latch)                                          0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.236     0.236
+data required time                                                         0.236
+--------------------------------------------------------------------------------
+data required time                                                        -0.236
+data arrival time                                                          0.151
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -0.085
+
+
+#Path 77
+Startpoint: $dffe~1329^Q~5.Q[0] (.latch clocked by tm3_clk_v0)
+Endpoint  : lo05635.D[0] (.latch clocked by tm3_clk_v0)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dffe~1329^Q~5.clk[0] (.latch)                                   0.000     0.000
+$dffe~1329^Q~5.Q[0] (.latch) [clock-to-output]                   0.151     0.151
+lo05635.D[0] (.latch)                                            0.000     0.151
+data arrival time                                                          0.151
+
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+lo05635.clk[0] (.latch)                                          0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.236     0.236
+data required time                                                         0.236
+--------------------------------------------------------------------------------
+data required time                                                        -0.236
+data arrival time                                                          0.151
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -0.085
+
+
+#Path 78
+Startpoint: $dffe~1598^Q~6.Q[0] (.latch clocked by tm3_clk_v0)
+Endpoint  : $dff~1206^Q~6.D[0] (.latch clocked by tm3_clk_v0)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dffe~1598^Q~6.clk[0] (.latch)                                   0.000     0.000
+$dffe~1598^Q~6.Q[0] (.latch) [clock-to-output]                   0.151     0.151
+$dff~1206^Q~6.D[0] (.latch)                                      0.000     0.151
+data arrival time                                                          0.151
+
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1206^Q~6.clk[0] (.latch)                                    0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.236     0.236
+data required time                                                         0.236
+--------------------------------------------------------------------------------
+data required time                                                        -0.236
+data arrival time                                                          0.151
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -0.085
+
+
+#Path 79
+Startpoint: $dff~1191^Q~5.Q[0] (.latch clocked by tm3_clk_v0)
+Endpoint  : $dff~1190^Q~5.D[0] (.latch clocked by tm3_clk_v0)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1191^Q~5.clk[0] (.latch)                                    0.000     0.000
+$dff~1191^Q~5.Q[0] (.latch) [clock-to-output]                    0.151     0.151
+$dff~1190^Q~5.D[0] (.latch)                                      0.000     0.151
+data arrival time                                                          0.151
+
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1190^Q~5.clk[0] (.latch)                                    0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.236     0.236
+data required time                                                         0.236
+--------------------------------------------------------------------------------
+data required time                                                        -0.236
+data arrival time                                                          0.151
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -0.085
+
+
+#Path 80
+Startpoint: $dff~1206^Q~0.Q[0] (.latch clocked by tm3_clk_v0)
+Endpoint  : $dff~1205^Q~0.D[0] (.latch clocked by tm3_clk_v0)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1206^Q~0.clk[0] (.latch)                                    0.000     0.000
+$dff~1206^Q~0.Q[0] (.latch) [clock-to-output]                    0.151     0.151
+$dff~1205^Q~0.D[0] (.latch)                                      0.000     0.151
+data arrival time                                                          0.151
+
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1205^Q~0.clk[0] (.latch)                                    0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.236     0.236
+data required time                                                         0.236
+--------------------------------------------------------------------------------
+data required time                                                        -0.236
+data arrival time                                                          0.151
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -0.085
+
+
+#Path 81
+Startpoint: $dff~1206^Q~1.Q[0] (.latch clocked by tm3_clk_v0)
+Endpoint  : $dff~1205^Q~1.D[0] (.latch clocked by tm3_clk_v0)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1206^Q~1.clk[0] (.latch)                                    0.000     0.000
+$dff~1206^Q~1.Q[0] (.latch) [clock-to-output]                    0.151     0.151
+$dff~1205^Q~1.D[0] (.latch)                                      0.000     0.151
+data arrival time                                                          0.151
+
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1205^Q~1.clk[0] (.latch)                                    0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.236     0.236
+data required time                                                         0.236
+--------------------------------------------------------------------------------
+data required time                                                        -0.236
+data arrival time                                                          0.151
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -0.085
+
+
+#Path 82
+Startpoint: $dff~1206^Q~2.Q[0] (.latch clocked by tm3_clk_v0)
+Endpoint  : $dff~1205^Q~2.D[0] (.latch clocked by tm3_clk_v0)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1206^Q~2.clk[0] (.latch)                                    0.000     0.000
+$dff~1206^Q~2.Q[0] (.latch) [clock-to-output]                    0.151     0.151
+$dff~1205^Q~2.D[0] (.latch)                                      0.000     0.151
+data arrival time                                                          0.151
+
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1205^Q~2.clk[0] (.latch)                                    0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.236     0.236
+data required time                                                         0.236
+--------------------------------------------------------------------------------
+data required time                                                        -0.236
+data arrival time                                                          0.151
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -0.085
+
+
+#Path 83
+Startpoint: $dff~1206^Q~3.Q[0] (.latch clocked by tm3_clk_v0)
+Endpoint  : $dff~1205^Q~3.D[0] (.latch clocked by tm3_clk_v0)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1206^Q~3.clk[0] (.latch)                                    0.000     0.000
+$dff~1206^Q~3.Q[0] (.latch) [clock-to-output]                    0.151     0.151
+$dff~1205^Q~3.D[0] (.latch)                                      0.000     0.151
+data arrival time                                                          0.151
+
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1205^Q~3.clk[0] (.latch)                                    0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.236     0.236
+data required time                                                         0.236
+--------------------------------------------------------------------------------
+data required time                                                        -0.236
+data arrival time                                                          0.151
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -0.085
+
+
+#Path 84
+Startpoint: $dff~1206^Q~4.Q[0] (.latch clocked by tm3_clk_v0)
+Endpoint  : $dff~1205^Q~4.D[0] (.latch clocked by tm3_clk_v0)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1206^Q~4.clk[0] (.latch)                                    0.000     0.000
+$dff~1206^Q~4.Q[0] (.latch) [clock-to-output]                    0.151     0.151
+$dff~1205^Q~4.D[0] (.latch)                                      0.000     0.151
+data arrival time                                                          0.151
+
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1205^Q~4.clk[0] (.latch)                                    0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.236     0.236
+data required time                                                         0.236
+--------------------------------------------------------------------------------
+data required time                                                        -0.236
+data arrival time                                                          0.151
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -0.085
+
+
+#Path 85
+Startpoint: $dff~1206^Q~5.Q[0] (.latch clocked by tm3_clk_v0)
+Endpoint  : $dff~1205^Q~5.D[0] (.latch clocked by tm3_clk_v0)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1206^Q~5.clk[0] (.latch)                                    0.000     0.000
+$dff~1206^Q~5.Q[0] (.latch) [clock-to-output]                    0.151     0.151
+$dff~1205^Q~5.D[0] (.latch)                                      0.000     0.151
+data arrival time                                                          0.151
+
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1205^Q~5.clk[0] (.latch)                                    0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.236     0.236
+data required time                                                         0.236
+--------------------------------------------------------------------------------
+data required time                                                        -0.236
+data arrival time                                                          0.151
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -0.085
+
+
+#Path 86
+Startpoint: $dff~1206^Q~6.Q[0] (.latch clocked by tm3_clk_v0)
+Endpoint  : $dff~1205^Q~6.D[0] (.latch clocked by tm3_clk_v0)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1206^Q~6.clk[0] (.latch)                                    0.000     0.000
+$dff~1206^Q~6.Q[0] (.latch) [clock-to-output]                    0.151     0.151
+$dff~1205^Q~6.D[0] (.latch)                                      0.000     0.151
+data arrival time                                                          0.151
+
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1205^Q~6.clk[0] (.latch)                                    0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.236     0.236
+data required time                                                         0.236
+--------------------------------------------------------------------------------
+data required time                                                        -0.236
+data arrival time                                                          0.151
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -0.085
+
+
+#Path 87
+Startpoint: $dff~1206^Q~7.Q[0] (.latch clocked by tm3_clk_v0)
+Endpoint  : $dff~1205^Q~7.D[0] (.latch clocked by tm3_clk_v0)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1206^Q~7.clk[0] (.latch)                                    0.000     0.000
+$dff~1206^Q~7.Q[0] (.latch) [clock-to-output]                    0.151     0.151
+$dff~1205^Q~7.D[0] (.latch)                                      0.000     0.151
+data arrival time                                                          0.151
+
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1205^Q~7.clk[0] (.latch)                                    0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.236     0.236
+data required time                                                         0.236
+--------------------------------------------------------------------------------
+data required time                                                        -0.236
+data arrival time                                                          0.151
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -0.085
+
+
+#Path 88
+Startpoint: $dffe~1329^Q~6.Q[0] (.latch clocked by tm3_clk_v0)
+Endpoint  : lo05636.D[0] (.latch clocked by tm3_clk_v0)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dffe~1329^Q~6.clk[0] (.latch)                                   0.000     0.000
+$dffe~1329^Q~6.Q[0] (.latch) [clock-to-output]                   0.151     0.151
+lo05636.D[0] (.latch)                                            0.000     0.151
+data arrival time                                                          0.151
+
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+lo05636.clk[0] (.latch)                                          0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.236     0.236
+data required time                                                         0.236
+--------------------------------------------------------------------------------
+data required time                                                        -0.236
+data arrival time                                                          0.151
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -0.085
+
+
+#Path 89
+Startpoint: $dff~1205^Q~1.Q[0] (.latch clocked by tm3_clk_v0)
+Endpoint  : $dff~1207^Q~1.D[0] (.latch clocked by tm3_clk_v0)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1205^Q~1.clk[0] (.latch)                                    0.000     0.000
+$dff~1205^Q~1.Q[0] (.latch) [clock-to-output]                    0.151     0.151
+$dff~1207^Q~1.D[0] (.latch)                                      0.000     0.151
+data arrival time                                                          0.151
+
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1207^Q~1.clk[0] (.latch)                                    0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.236     0.236
+data required time                                                         0.236
+--------------------------------------------------------------------------------
+data required time                                                        -0.236
+data arrival time                                                          0.151
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -0.085
+
+
+#Path 90
+Startpoint: $dff~1115^Q~1.Q[0] (.latch clocked by tm3_clk_v0)
+Endpoint  : $dff~1117^Q~1.D[0] (.latch clocked by tm3_clk_v0)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1115^Q~1.clk[0] (.latch)                                    0.000     0.000
+$dff~1115^Q~1.Q[0] (.latch) [clock-to-output]                    0.151     0.151
+$dff~1117^Q~1.D[0] (.latch)                                      0.000     0.151
+data arrival time                                                          0.151
+
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1117^Q~1.clk[0] (.latch)                                    0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.236     0.236
+data required time                                                         0.236
+--------------------------------------------------------------------------------
+data required time                                                        -0.236
+data arrival time                                                          0.151
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -0.085
+
+
+#Path 91
+Startpoint: $dffe~1602^Q~4.Q[0] (.latch clocked by tm3_clk_v0)
+Endpoint  : $dff~1191^Q~4.D[0] (.latch clocked by tm3_clk_v0)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dffe~1602^Q~4.clk[0] (.latch)                                   0.000     0.000
+$dffe~1602^Q~4.Q[0] (.latch) [clock-to-output]                   0.151     0.151
+$dff~1191^Q~4.D[0] (.latch)                                      0.000     0.151
+data arrival time                                                          0.151
+
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1191^Q~4.clk[0] (.latch)                                    0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.236     0.236
+data required time                                                         0.236
+--------------------------------------------------------------------------------
+data required time                                                        -0.236
+data arrival time                                                          0.151
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -0.085
+
+
+#Path 92
+Startpoint: $dffe~599^Q~4.Q[0] (.latch clocked by tm3_clk_v0)
+Endpoint  : lo11050.D[0] (.latch clocked by tm3_clk_v0)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dffe~599^Q~4.clk[0] (.latch)                                    0.000     0.000
+$dffe~599^Q~4.Q[0] (.latch) [clock-to-output]                    0.151     0.151
+lo11050.D[0] (.latch)                                            0.000     0.151
+data arrival time                                                          0.151
+
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+lo11050.clk[0] (.latch)                                          0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.236     0.236
+data required time                                                         0.236
+--------------------------------------------------------------------------------
+data required time                                                        -0.236
+data arrival time                                                          0.151
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -0.085
+
+
+#Path 93
+Startpoint: $dffe~599^Q~5.Q[0] (.latch clocked by tm3_clk_v0)
+Endpoint  : lo11051.D[0] (.latch clocked by tm3_clk_v0)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dffe~599^Q~5.clk[0] (.latch)                                    0.000     0.000
+$dffe~599^Q~5.Q[0] (.latch) [clock-to-output]                    0.151     0.151
+lo11051.D[0] (.latch)                                            0.000     0.151
+data arrival time                                                          0.151
+
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+lo11051.clk[0] (.latch)                                          0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.236     0.236
+data required time                                                         0.236
+--------------------------------------------------------------------------------
+data required time                                                        -0.236
+data arrival time                                                          0.151
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -0.085
+
+
+#Path 94
+Startpoint: $dffe~1602^Q~5.Q[0] (.latch clocked by tm3_clk_v0)
+Endpoint  : $dff~1191^Q~5.D[0] (.latch clocked by tm3_clk_v0)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dffe~1602^Q~5.clk[0] (.latch)                                   0.000     0.000
+$dffe~1602^Q~5.Q[0] (.latch) [clock-to-output]                   0.151     0.151
+$dff~1191^Q~5.D[0] (.latch)                                      0.000     0.151
+data arrival time                                                          0.151
+
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1191^Q~5.clk[0] (.latch)                                    0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.236     0.236
+data required time                                                         0.236
+--------------------------------------------------------------------------------
+data required time                                                        -0.236
+data arrival time                                                          0.151
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -0.085
+
+
+#Path 95
+Startpoint: $dffe~1602^Q~6.Q[0] (.latch clocked by tm3_clk_v0)
+Endpoint  : $dff~1191^Q~6.D[0] (.latch clocked by tm3_clk_v0)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dffe~1602^Q~6.clk[0] (.latch)                                   0.000     0.000
+$dffe~1602^Q~6.Q[0] (.latch) [clock-to-output]                   0.151     0.151
+$dff~1191^Q~6.D[0] (.latch)                                      0.000     0.151
+data arrival time                                                          0.151
+
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1191^Q~6.clk[0] (.latch)                                    0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.236     0.236
+data required time                                                         0.236
+--------------------------------------------------------------------------------
+data required time                                                        -0.236
+data arrival time                                                          0.151
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -0.085
+
+
+#Path 96
+Startpoint: $dff~1115^Q~7.Q[0] (.latch clocked by tm3_clk_v0)
+Endpoint  : $dff~1117^Q~7.D[0] (.latch clocked by tm3_clk_v0)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1115^Q~7.clk[0] (.latch)                                    0.000     0.000
+$dff~1115^Q~7.Q[0] (.latch) [clock-to-output]                    0.151     0.151
+$dff~1117^Q~7.D[0] (.latch)                                      0.000     0.151
+data arrival time                                                          0.151
+
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1117^Q~7.clk[0] (.latch)                                    0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.236     0.236
+data required time                                                         0.236
+--------------------------------------------------------------------------------
+data required time                                                        -0.236
+data arrival time                                                          0.151
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -0.085
+
+
+#Path 97
+Startpoint: $dff~1115^Q~6.Q[0] (.latch clocked by tm3_clk_v0)
+Endpoint  : $dff~1117^Q~6.D[0] (.latch clocked by tm3_clk_v0)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1115^Q~6.clk[0] (.latch)                                    0.000     0.000
+$dff~1115^Q~6.Q[0] (.latch) [clock-to-output]                    0.151     0.151
+$dff~1117^Q~6.D[0] (.latch)                                      0.000     0.151
+data arrival time                                                          0.151
+
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1117^Q~6.clk[0] (.latch)                                    0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.236     0.236
+data required time                                                         0.236
+--------------------------------------------------------------------------------
+data required time                                                        -0.236
+data arrival time                                                          0.151
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -0.085
+
+
+#Path 98
+Startpoint: $dff~1115^Q~5.Q[0] (.latch clocked by tm3_clk_v0)
+Endpoint  : $dff~1117^Q~5.D[0] (.latch clocked by tm3_clk_v0)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1115^Q~5.clk[0] (.latch)                                    0.000     0.000
+$dff~1115^Q~5.Q[0] (.latch) [clock-to-output]                    0.151     0.151
+$dff~1117^Q~5.D[0] (.latch)                                      0.000     0.151
+data arrival time                                                          0.151
+
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1117^Q~5.clk[0] (.latch)                                    0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.236     0.236
+data required time                                                         0.236
+--------------------------------------------------------------------------------
+data required time                                                        -0.236
+data arrival time                                                          0.151
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -0.085
+
+
+#Path 99
+Startpoint: $dff~1115^Q~4.Q[0] (.latch clocked by tm3_clk_v0)
+Endpoint  : $dff~1117^Q~4.D[0] (.latch clocked by tm3_clk_v0)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1115^Q~4.clk[0] (.latch)                                    0.000     0.000
+$dff~1115^Q~4.Q[0] (.latch) [clock-to-output]                    0.151     0.151
+$dff~1117^Q~4.D[0] (.latch)                                      0.000     0.151
+data arrival time                                                          0.151
+
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1117^Q~4.clk[0] (.latch)                                    0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.236     0.236
+data required time                                                         0.236
+--------------------------------------------------------------------------------
+data required time                                                        -0.236
+data arrival time                                                          0.151
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -0.085
+
+
+#Path 100
+Startpoint: $dff~1115^Q~3.Q[0] (.latch clocked by tm3_clk_v0)
+Endpoint  : $dff~1117^Q~3.D[0] (.latch clocked by tm3_clk_v0)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1115^Q~3.clk[0] (.latch)                                    0.000     0.000
+$dff~1115^Q~3.Q[0] (.latch) [clock-to-output]                    0.151     0.151
+$dff~1117^Q~3.D[0] (.latch)                                      0.000     0.151
+data arrival time                                                          0.151
+
+clock tm3_clk_v0 (rise edge)                                     0.000     0.000
+clock source latency                                             0.000     0.000
+tm3_clk_v0.inpad[0] (.input)                                     0.000     0.000
+$dff~1117^Q~3.clk[0] (.latch)                                    0.000     0.000
+clock uncertainty                                                0.000     0.000
+cell hold time                                                   0.236     0.236
+data required time                                                         0.236
+--------------------------------------------------------------------------------
+data required time                                                        -0.236
+data arrival time                                                          0.151
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -0.085
+
+
+#End of timing report

@@ -1,0 +1,28 @@
+Placement_File: blink.place Placement_ID: SHA256:ad5a62480fd586421d2b16c4d3fca470bea76ac8b2e91a1cd1c4f2997f0a38fa
+Array size: 3 x 3 logic blocks.
+
+Routing:
+
+Net 0 (blink^i_reset)
+
+Node:	262	SOURCE (2,1)  Pad: 16  Switch: 0
+Node:	286	  OPIN (2,1)  Pad: 16  Switch: 2
+Node:	596	 CHANY (1,1)  Track: 2  Switch: 1
+Node:	132	  IPIN (1,1)  Pin: 9   clb.I1[9] Switch: 0
+Node:	96	  SINK (1,1)  Class: 0  Switch: -1 Net_pin_index: 1
+
+
+Net 1 (blink^o_led)
+
+Node:	112	SOURCE (1,1)  Class: 16  Switch: 0
+Node:	187	  OPIN (1,1)  Pin: 64   clb.O[11] Switch: 2
+Node:	422	 CHANX (1,1)  Track: 28  Switch: 2
+Node:	621	 CHANY (1,1)  Track: 27  Switch: 1
+Node:	273	  IPIN (2,1)  Pad: 3  Switch: 0
+Node:	249	  SINK (2,1)  Pad: 3  Switch: -1 Net_pin_index: 1
+
+
+Net 2 (blink^clk): global net connecting:
+
+Block blink^clk (#2) at (1,0), Pin class 7.
+Block blink^ADD~2-0[0] (#0) at (1,1), Pin class 26.

@@ -1,0 +1,5 @@
+vpr_status=success
+vpr_seconds=43
+rundir=/home/ljw/VTR/vtr_work/mywork/stereovision0
+hostname=ljw-virtual-machine
+error=

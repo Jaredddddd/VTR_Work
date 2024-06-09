@@ -1,0 +1,40 @@
+Placement_File: blink.place Placement_ID: SHA256:802e521027c9f2d87db6abfade799273c473daebcef332ac71c3d78da605fb3b
+Array size: 3 x 3 logic blocks.
+
+Routing:
+
+Net 0 (i_reset)
+
+Node:	262	SOURCE (2,1)  Pad: 16  Switch: 0
+Node:	286	  OPIN (2,1)  Pad: 16  Switch: 2
+Node:	596	 CHANY (1,1)  Track: 2  Switch: 1
+Node:	132	  IPIN (1,1)  Pin: 9   clb.I1[9] Switch: 0
+Node:	96	  SINK (1,1)  Class: 0  Switch: -1 Net_pin_index: 1
+
+
+Net 1 (gnd): global net connecting:
+
+Block $add~0^ADD~0-0~dummy_output~0~1 (#0) at (1,1), Pin class 21.
+Block $add~0^ADD~0-0~dummy_output~0~1 (#0) at (1,1), Pin class 4.
+
+
+Net 2 (o_led)
+
+Node:	108	SOURCE (1,1)  Class: 12  Switch: 0
+Node:	183	  OPIN (1,1)  Pin: 60   clb.O[7] Switch: 2
+Node:	411	 CHANX (1,1)  Track: 17  Switch: 2
+Node:	575	 CHANY (0,1)  Track: 81  Switch: 2
+Node:	376	 CHANX (1,0)  Track: 82  Switch: 2
+Node:	612	 CHANY (1,1)  Track: 18  Switch: 2
+Node:	415	 CHANX (1,1)  Track: 21  Switch: 2
+Node:	571	 CHANY (0,1)  Track: 77  Switch: 2
+Node:	372	 CHANX (1,0)  Track: 78  Switch: 2
+Node:	616	 CHANY (1,1)  Track: 22  Switch: 1
+Node:	273	  IPIN (2,1)  Pad: 3  Switch: 0
+Node:	249	  SINK (2,1)  Pad: 3  Switch: -1 Net_pin_index: 1
+
+
+Net 3 (clk): global net connecting:
+
+Block clk (#2) at (1,0), Pin class 7.
+Block $add~0^ADD~0-0~dummy_output~0~1 (#0) at (1,1), Pin class 26.

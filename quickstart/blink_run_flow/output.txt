@@ -1,0 +1,5 @@
+vpr_status=success
+vpr_seconds=0
+rundir=/home/ljw/VTR/vtr_work/quickstart/blink_run_flow
+hostname=ljw-virtual-machine
+error=

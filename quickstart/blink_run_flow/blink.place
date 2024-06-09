@@ -1,0 +1,9 @@
+Netlist_File: blink.net Netlist_ID: SHA256:bf1b14f85dedd41be483f800ab0fd1064e8686c867857802502324732daeffef
+Array size: 3 x 3 logic blocks
+
+#block name	x	y	subblk	block number
+#----------	--	--	------	------------
+$add~0^ADD~0-0~dummy_output~0~1	1	1	0	#0
+out:o_led	2	1	1	#1
+clk		1	0	2	#2
+i_reset		2	1	5	#3

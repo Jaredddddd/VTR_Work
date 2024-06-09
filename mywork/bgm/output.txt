@@ -1,0 +1,5 @@
+vpr_status=success
+vpr_seconds=182
+rundir=/home/ljw/VTR/vtr_work/mywork/bgm
+hostname=ljw-virtual-machine
+error=
